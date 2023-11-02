@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Costकम</title>
+    <link rel="stylesheet" href="ShoppingCss.css">
+    <link rel="stylesheet" href="footerCss.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css">
+    <script src="/jquery-3.6.1.js"></script>
+    <style>
+body{
+  background-color: rgb(190, 185, 185);
+}
+    </style>
+</head>
+<body>
+
+<!-- ------------ Nav Bar ------------  -->
+  <nav class="navbar">
+    <div class="content">
+      <div class="logo">
+        <a href="Home.html">Costकम</a>
+      </div>
+      <ul class="menu-list">
+        <div class="icon cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+        <li><a href="Home.html">Home</a></li>
+        
+        <li class="products"><a href="CategoryHome.html">Costumes</a>
+        
+        </li>
+        <li>
+          <!-- <a href="cartPage.html">Cart</a> -->
+          
+          <!-- <a href="/LoginPage.html"><i class="fa-solid fa-cart-shopping"></i> Cart <span style="font-size: 20px;" class="cart-count"></span></a> -->
+        </li>
+        <!-- <li><a href="shopabout.html">Our Policies</a></li> -->
+        <!-- <li><a href="shopcontact.html">Contact</a></li> -->
+        <li><a href="AdminUserLogin.html">SignIn</a></li>
+      </ul>
+      <div class="icon menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+  <div class="banner"></div>
+
+<!-- ----------- Growth Section -----------  -->
+<section>
+  <div class="growth">
+        <div class="growth-row">
+            <div class="growth-col">
+                <h3>6 lakh+</h3>
+                <p>Trust Costकम to buy online</p>
+            </div>
+            <div class="growth-col">
+                <h3>11 Crore+</h3>
+                <p>Customers buying across India</p>
+            </div>
+            <div class="growth-col">
+                <h3>28000+</h3>
+                <p>Pincode Supported for delivery</p>
+            </div>
+            <div class="growth-col">
+                <h3>700+</h3>
+                <p>Categories to sell online</p>
+            </div>
+        </div>
+  </div>
+  <div class="after-growth">
+    <!-- <div class="aftergro-container"> -->
+      <!-- <div class="img1"> -->
+        <img src="/ShoppingProduts/growth1.jpg" alt="">
+      <!-- </div> -->
+      <!-- <div class="img2"> -->
+        <img src="/ShoppingProduts/onlineshopping.webp" alt="">
+      <!-- </div> -->
+    <!-- </div> -->
+  </div>
+  <div class="fashion">
+    <a href="Category.html"><img src="/ShoppingProduts/grouphallow.jpg" alt=""></a>
+  </div>
+
+  <div class="fashion">
+    <a href="Category.html"><img src="/ShoppingProduts/grouphallow1.jpg" alt=""></a>
+  </div>
+</section>
+
+<!-- ---------- Testimonials -------------------  -->
+
+  <div class="about">
+    <div class="content">
+      <div class="title">Why Buyers Love ShopOn</div>
+      <p class="para">All the benefits that come with selling on ShopOn are designed to help you sell more, and make it easier to grow your business.</p>  
+    </div>
+    <div class="wrapper">
+      <div class="box">
+        <i class="fas fa-quote-left quote"></i>
+        <p>Our business has grown beyond our imagination, getting upto 10,000 orders consistently during sale days. We are now constantly bringing new products thanks to Costकम's insights.</p>
+        <div class="content">
+          <div class="info">
+            <div class="name">Mohit Tiwari</div>
+            <div class="job">Designer | Mumbai</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+          </div>
+          <div class="image">
+            <img src="ShoppingProduts/ppl3.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <i class="fas fa-quote-left quote"></i>
+        <p>I started selling on ShopOn with 4-5 orders on the very first day.<br> In no time I was getting over 1000 orders a day, like a dream come true. Thank you Costकम.</p>
+        <div class="content">
+          <div class="info">
+            <div class="name">Suman Shukla</div>
+            <div class="job">Designer | Teacher</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+          </div>
+          <div class="image">
+            <img src="/ShoppingProduts/ppl1.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      
+      <div class="box">
+        <i class="fas fa-quote-left quote"></i>
+        <p>Costकम made it extremely simple to transition to online business during lockdown. Suddenly we were all over India to our surprise, seeing up to 5X growth on sale days.</p>
+        <div class="content">
+          <div class="info">
+            <div class="name">Amit Mehta</div>
+            <div class="job">YouTuber | Blogger</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+          </div>
+          <div class="image">
+            <img src="/ShoppingProduts/ppl2.jpg" alt="">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+<!-- ----------------- Script for Navbar ---------  -->
+  <script>
+    const body = document.querySelector("body");
+    const navbar = document.querySelector(".navbar");
+    const menuBtn = document.querySelector(".menu-btn");
+    const cancelBtn = document.querySelector(".cancel-btn");
+    menuBtn.onclick = ()=>{
+      navbar.classList.add("show");
+      menuBtn.classList.add("hide");
+      body.classList.add("disabled");
+    }
+    cancelBtn.onclick = ()=>{
+      body.classList.remove("disabled");
+      navbar.classList.remove("show");
+      menuBtn.classList.remove("hide");
+    }
+    window.onscroll = ()=>{
+      this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+    }
+  </script>
+
+
+<!-- ----------------- Footer ------------------  -->
+<footer class="footer">
+  	 <div class="container">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>company</h4>
+  	 			<ul>
+  	 				<li><a href="#">about us</a></li>
+  	 				<li><a href="#">our services</a></li>
+  	 				<li><a href="shopabout.html">privacy policy</a></li>
+  	 				<li><a href="#">affiliate program</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>get help</h4>
+  	 			<ul>
+  	 				<li><a href="#">FAQ</a></li>
+  	 				<li><a href="#">shipping</a></li>
+  	 				<li><a href="#">returns</a></li>
+  	 				<li><a href="#">order status</a></li>
+  	 				<li><a href="#">payment options</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>online shop</h4>
+  	 			<ul>
+  	 				<li><a href="#">watch</a></li>
+  	 				<li><a href="#">bag</a></li>
+  	 				<li><a href="#">shoes</a></li>
+  	 				<li><a href="#">dress</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>follow us</h4>
+  	 			<div class="social-links">
+  	 				<a href="#"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="#"><i class="fab fa-twitter"></i></a>
+  	 				<a href="#"><i class="fab fa-instagram"></i></a>
+  	 				<a href="#"><i class="fab fa-linkedin-in"></i></a>
+  	 			</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
+
+<script src="/main.js"></script>
+</body>
+</html>

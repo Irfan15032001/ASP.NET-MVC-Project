@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopOn Page</title>
+    <link rel="stylesheet" href="ShoppingCss.css">
+    <link rel="stylesheet" href="footerCss.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css">
+    <!-- <script src="/jquery-3.6.1.js"></script> -->
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <style>
+.about{
+ 
+ width: 90%;
+ margin-left: 5%;
+ margin-bottom: 5%;
+ margin-top: 5%;
+}
+.about .title{
+ font-size: 38px;
+ font-weight: 700;
+ padding: 20px 0;
+}
+.about .para{
+ padding: 20px 0;
+ text-align: justify;
+ font-size: 25px;
+ margin-bottom: 5%;
+}
+.policy-banner{
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0)), url(/ShoppingProduts/halloween2.jpg);
+  height: 60vh;
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+}
+.order-container{
+  width: 80vw;
+  margin-left: 10vw;
+  text-align: center;
+  margin-top: 3%;
+
+}
+
+.prodList{
+   max-width: 90%;
+   margin-left: 5%;
+   /* margin-bottom: 35%; */
+   /* height: 100vh; */
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+  justify-content: space-between;
+   
+  }
+  .card-div .img{
+  height: 200px;
+  width: 100%;
+}
+.card-div .img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+  .card-div{
+  /* height: 280px; */
+  max-width: 350px;
+  margin: 20px 20px;
+  background: white;
+  transition: 0.4s;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  flex-basis: 29%;
+
+  /* float: left; */
+}
+  .name{
+  font-size: 25px;
+  font-weight: 600;
+  color: #202020;
+  margin-left: 10px;
+}
+.price{
+  font-size: 20px;
+  font-weight: 600;
+  color: #282123;
+  line-height: 20px;
+  margin-left: 10px;
+}
+.stock span{
+   font-size: 15px;
+  font-weight: 600;
+  color: #16791b;
+  /* line-height: 20px; */
+  margin-left: 12px;
+}
+  .btn button{
+  text-decoration: none;
+  background: #2d292a;
+  color: #f2f2f2;
+  padding: 5px 8px;
+  border-radius: 3px;
+  display: inline-flex;
+  transition: 0.2s;
+  margin: 20px 10px 5px;
+  border: none;
+}
+.btn button:hover{
+  transform: scale(0.9);
+}
+.stock,.btn{
+   display: none;
+   transition: 1s;
+}
+.card-div:hover .btn, .card-div:hover .stock{
+   display: block;
+
+}
+.total{
+    font-size: 16px;
+  font-weight: 600;
+  color: #202020;
+  margin-left: 10px;
+}
+.quantity{
+
+    font-size: 16px;
+  font-weight: 600;
+  color: #202020;
+  margin-left: 10px;
+
+}
+.title{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    position: relative;
+    top: 45%;
+    left: 47%;
+    text-shadow: 2px 2px 2px black;
+}
+.card-form{
+    /* max-width: 500px;
+    width: 100%; */
+    /* background-color: #202020; */
+    border: 1px solid black;
+    position: fixed;
+    top: -100%;
+    /* top:30%; */
+    left: 35%; 
+    background: rgb(109, 114, 118);
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px 2px black;
+    z-index: 6;
+    transition: 1s;
+}
+.card-form h3{
+color: white;
+width: 100%;
+background-color: rgb(33, 36, 38);
+margin-bottom: 10px;
+border-radius: 15px 15px 0 0;
+padding: 10px 20px;
+}
+.payment-btn, .payment-can{
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: rgb(16, 18, 19);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+}
+.card-form label{
+    color: white;
+    font-weight: 500;
+    padding: 10px 10px;
+}
+.card-form #cvv{
+    width: 100px;
+}
+.card-form #cardNo{
+    width: 235px;
+    margin-right: 20px;
+    margin: 20px 10px;
+    height: 40px;
+    
+}
+
+
+@media screen and (max-width: 768px) {
+  .prodList{
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+  }
+  .card-div{
+    /* max-width: 700px; */
+    margin: 20px 0;
+    
+  }
+}
+
+
+    </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="content">
+      <div class="logo">
+        <a href="ShoppingHome.html">Costकम</a>
+      </div>
+      <ul class="menu-list">
+        <div class="icon cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+        <li><a href="ShoppingHome.html">Home</a></li>
+        
+        <li class="products"><a href="Category.html">Costumes</a>
+        
+        </li>
+        <li>
+          <!-- <a href="cartPage.html">Cart</a> -->
+          
+          <a href="Cart.html"><i class="fa-solid fa-cart-shopping"></i> Cart <span style="font-size: 20px;" class="cart-count"></span></a>
+        </li>
+        <li><a href="BillPage.html">Order</a></li>
+        <!-- <li><a href="shopcontact.html">Contact</a></li> -->
+        <li><a href="AdminUserLogin.html">Sign Out</a></li>
+      </ul>
+      <div class="icon menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+
+ <div class="policy-banner">
+ </div>
+<!-- 
+ <section>
+ 
+  <div class="order-container">
+    <h1>Order Details </h1><br>
+    <div>
+      <h4>Order ID: <span class="orderId">--</span></h4>
+    </div>
+    <div>
+      <h4>User ID: <span class="userId">--</span></h4> 
+      <h4>Customer Name: <span class="userName">--</span></h4> 
+      <h4>Product ID: <span class="prodId">--</span></h4>
+      <h4>Product Price: Rs. <span class="prodPrice">--</span>/-</h4>
+      <h4>Quantity: <span class="prodQty">--</span></h4>
+      <h4>Total Amount: Rs: <span class="totalAmt">--</span>/-</h4>
+
+    </div>
+    <div><span class="img-tag"></span></div>
+    <h2>Your Order Has Been Placed. Thank You!</h2>
+  </div>
+
+  
+ </section> -->
+
+ 
+ <section class="prodList"></section>
+   <!-- <div class="about"> 
+    <div class="content">
+      <div class="title">ShopOn Shipping & Delivery Charges</div>
+      <p>Meesho offers the lowest shipping cost across all online platforms in India. We have tied up with multiple Logistics Partners who pick up the product from your location and deliver it straight to the customer.
+      </p>
+      <br>
+      <p>With such low delivery charges, you can receive orders from all over India and focus more on selling your products online than handling the stress of shipping and logistics all by yourself.
+      </p>
+    </div>
+  </div>
+
+  <div class="about">
+    <div class="content">
+      <div class="title">Shipping Timeline</div>
+      <p>The orders must be shipped within 2-3 days from the date of receiving the order within the agreed time provided by you (also known as Service Level Agreement or SLA). You can check the status of your order and the days left for dispatch on the Meesho Supplier Panel.
+      </p>
+    </div>
+  </div>
+  <div class="about">
+    <div class="content">
+      <div class="title">ShopOn Return Policy</div>
+      <p>Customers can return the product within 7 days from the date of delivery and the shipments which weren’t delivered to the customer get converted to an RTO (Return to Origin).
+      </p>
+      <br>
+      <p>ShopOn gives sellers all the information they need to manage their customer returns or RTOs (Return to Origin) along with details on compensation and charges levied for each return/RTO. We have best-in-class tools to help our sellers track and manage their returns, get order or product level data as well as detailed shipping tracking, payment and order history.
+      </p>
+    </div>
+  </div>
+
+  <div class="about">
+    <div class="content">
+      <div class="title">No Cancellation Penalty</div>
+      <p>In order to maintain a good customer experience for customers, it is important for you to ensure that the products you have listed on Meesho are in stock and available to ship. However, we understand that there could be delays that are out of your control leading to late dispatch or order cancellation. In that case, Meesho will not charge any penalty to you so you can continue to sell online without any tension.
+      </p>
+    </div>
+  </div> -->
+
+  <script>
+    const body = document.querySelector("body");
+    const navbar = document.querySelector(".navbar");
+    const menuBtn = document.querySelector(".menu-btn");
+    const cancelBtn = document.querySelector(".cancel-btn");
+    menuBtn.onclick = ()=>{
+      navbar.classList.add("show");
+      menuBtn.classList.add("hide");
+      body.classList.add("disabled");
+    }
+    cancelBtn.onclick = ()=>{
+      body.classList.remove("disabled");
+      navbar.classList.remove("show");
+      menuBtn.classList.remove("hide");
+    }
+    window.onscroll = ()=>{
+      this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+    }
+  </script>
+
+  <!-- <script>
+    function DisplayBill(){
+
+      var userID = localStorage.getItem("userIdFromStorage");
+      var orderID = localStorage.getItem("OrderID");
+      var userName = localStorage.getItem("userNameFromStorage");
+      
+      $.ajax({
+    type: "GET", url: "http://localhost:49834/api/OrderMaster?ID=" + orderID, success: (response) => {
+
+        // var str = "<tr><td>" + response.OrderID + "</td><td>" + response.UserID + "</td><td>" + response.ProdTotal + "</td><td><button type='button' class='btn btn-dark btnView' data-toggle='modal' data-target='#ViewModel' data-prodid=" + response.OrderID + ">View</button></td></tr>";
+        // $(".ProdTable").append(str);
+
+        //alert(str);
+
+        $(".orderId").html(response.OrderID);
+        $(".userId").html(response.UserID);
+        $(".userName").html(userName);
+        $(".prodId").html(response.ProductID);
+        $(".prodPrice").html(response.ProdPrice);
+        $(".prodQty").html(response.ProdQty);
+        $(".totalAmt").html(response.ProdTotal);
+        $(".img-tag").html("<img src="+response.Tag+" alt='Product Image' width='400px'/>");
+    },
+    error: (err) => {
+        alert(err)
+        console.log(err);
+    }
+});
+    }
+    DisplayBill();
+  </script> -->
+<script>
+   function ViewProduct(){
+    var userId = localStorage.getItem("userIdFromStorage");
+      $.ajax({
+        type: "GET", url: "http://localhost:49834/api/OrderMaster?ID="+userId, success: (response) => {
+            
+            for (var i = 0; i < response.length; i++) {
+                var productDetails = response[i];
+
+               var str = "<div class='card-div'><div class='img'><img src='"+productDetails.Tag+"'></div><div class='name'>"+productDetails.ProdName+"</div><span class='price'>Rs. "+productDetails.ProdPrice+"/-</span><div><span class='quantity'>Quantity: "+productDetails.ProdQty+"</span></div><div><span class='total'>Total Amount: Rs. "+productDetails.ProdTotal+"/-</span></div><div class='btn'><button class='buy-now' data-prodId="+productDetails.ProductID+" data-prodName="+productDetails.ProdName+" data-prodPrice="+productDetails.ProdPrice+" data-tag="+productDetails.Tag+" data-total="+productDetails.ProdTotal+" data-orderId="+productDetails.CartID+" data-qty="+productDetails.ProdQty+">Buy Now </button><button type='button' class='removeItem' data-re-Id="+productDetails.OrderID+">Remove</button></div>"
+                $(".prodList").append(str);
+            }
+        }, error: (err) => {
+            alert(err)
+            console.log(err);
+        }
+    });
+   }
+    ViewProduct();
+
+    $(document).on("click",".removeItem",(event)=>{
+    var orderID = $(event.target).attr("data-re-Id");
+
+    $.ajax({
+                type:"DELETE", url:"http://localhost:49834/api/OrderMaster?ID=" + orderID, success:(response)=>{
+                    // alert("Product has been removed from cart!!!!")
+                    // window.location.href="Cart.html";
+                    alert("Product has been removed")
+                    window.location.href="BillPage.html";
+                },
+                error:(err)=>{
+                    alert(err);
+                }
+            });
+});
+</script>
+
+<!-- ----------------- Footer ------------------  -->
+<footer class="footer">
+  	 <div class="container">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>company</h4>
+  	 			<ul>
+  	 				<li><a href="#">about us</a></li>
+  	 				<li><a href="#">our services</a></li>
+  	 				<li><a href="shopabout.html">privacy policy</a></li>
+  	 				<li><a href="#">affiliate program</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>get help</h4>
+  	 			<ul>
+  	 				<li><a href="#">FAQ</a></li>
+  	 				<li><a href="#">shipping</a></li>
+  	 				<li><a href="#">returns</a></li>
+  	 				<li><a href="#">order status</a></li>
+  	 				<li><a href="#">payment options</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>online shop</h4>
+  	 			<ul>
+  	 				<li><a href="#">watch</a></li>
+  	 				<li><a href="#">bag</a></li>
+  	 				<li><a href="#">shoes</a></li>
+  	 				<li><a href="#">dress</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>follow us</h4>
+  	 			<div class="social-links">
+  	 				<a href="#"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="#"><i class="fab fa-twitter"></i></a>
+  	 				<a href="#"><i class="fab fa-instagram"></i></a>
+  	 				<a href="#"><i class="fab fa-linkedin-in"></i></a>
+  	 			</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
+
+<script src="/main.js"></script>
+</body>
+</html>

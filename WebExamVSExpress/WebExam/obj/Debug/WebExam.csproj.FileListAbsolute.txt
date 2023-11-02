@@ -1,0 +1,240 @@
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\roslyn\csc.exe
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\roslyn\System.Collections.Immutable.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\roslyn\System.Reflection.Metadata.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\roslyn\vbc.exe
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\roslyn\VBCSCompiler.exe
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\roslyn\VBCSCompiler.exe.config
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\WebExam.dll.config
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\WebExam.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\WebExam.pdb
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\Antlr3.Runtime.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\EntityFramework.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\EntityFramework.SqlServer.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\Microsoft.Owin.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\Microsoft.Owin.Security.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\Microsoft.Owin.Security.Google.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\Microsoft.Web.Infrastructure.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\Newtonsoft.Json.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\Owin.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\System.Net.Http.Formatting.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\System.Web.Cors.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\System.Web.Helpers.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\System.Web.Http.Cors.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\System.Web.Http.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\System.Web.Http.Owin.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\System.Web.Http.WebHost.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\System.Web.Mvc.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\System.Web.Optimization.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\System.Web.Razor.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\System.Web.WebPages.Deployment.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\System.Web.WebPages.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\System.Web.WebPages.Razor.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\WebGrease.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\System.Net.Http.Formatting.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\System.Web.Http.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\System.Web.Http.Cors.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\Newtonsoft.Json.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\System.Web.Helpers.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\System.Web.Http.WebHost.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\System.Web.Mvc.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\System.Web.Optimization.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\System.Web.Razor.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\System.Web.WebPages.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\System.Web.WebPages.Deployment.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\System.Web.WebPages.Razor.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\Antlr3.Runtime.pdb
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\EntityFramework.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\EntityFramework.SqlServer.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\Microsoft.Owin.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\Microsoft.Owin.Security.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\Microsoft.Owin.Security.Google.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\bin\System.Web.Http.Owin.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\obj\Debug\WebExam.csprojResolveAssemblyReference.cache
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\obj\Debug\WebExam.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam\WebExam\obj\Debug\WebExam.pdb
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\roslyn\csc.exe
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\roslyn\System.Collections.Immutable.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\roslyn\System.Reflection.Metadata.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\roslyn\vbc.exe
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\roslyn\VBCSCompiler.exe
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\roslyn\VBCSCompiler.exe.config
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\WebExam.dll.config
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\WebExam.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\WebExam.pdb
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\Antlr3.Runtime.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\EntityFramework.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\EntityFramework.SqlServer.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\Microsoft.Owin.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\Microsoft.Owin.Security.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\Microsoft.Owin.Security.Google.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\Microsoft.Web.Infrastructure.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\Newtonsoft.Json.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\Owin.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\System.Net.Http.Formatting.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\System.Web.Cors.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\System.Web.Helpers.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\System.Web.Http.Cors.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\System.Web.Http.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\System.Web.Http.Owin.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\System.Web.Http.WebHost.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\System.Web.Mvc.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\System.Web.Optimization.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\System.Web.Razor.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\System.Web.WebPages.Deployment.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\System.Web.WebPages.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\System.Web.WebPages.Razor.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\WebGrease.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\System.Net.Http.Formatting.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\System.Web.Http.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\System.Web.Http.Cors.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\Newtonsoft.Json.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\System.Web.Helpers.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\System.Web.Http.WebHost.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\System.Web.Mvc.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\System.Web.Optimization.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\System.Web.Razor.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\System.Web.WebPages.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\System.Web.WebPages.Deployment.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\System.Web.WebPages.Razor.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\Antlr3.Runtime.pdb
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\EntityFramework.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\EntityFramework.SqlServer.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\Microsoft.Owin.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\Microsoft.Owin.Security.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\Microsoft.Owin.Security.Google.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\bin\System.Web.Http.Owin.xml
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\obj\Debug\WebExam.csprojResolveAssemblyReference.cache
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\obj\Debug\WebExam.dll
+D:\Irfan Shaikh\.Net\HTML\CALLWEBAPI\WebExam - Copy\WebExam\obj\Debug\WebExam.pdb
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\roslyn\csc.exe
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\roslyn\System.Collections.Immutable.dll
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\roslyn\System.Reflection.Metadata.dll
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\roslyn\vbc.exe
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\roslyn\VBCSCompiler.exe
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\roslyn\VBCSCompiler.exe.config
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\WebExam.dll.config
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\WebExam.dll
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\WebExam.pdb
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\Antlr3.Runtime.dll
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\EntityFramework.dll
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\EntityFramework.SqlServer.dll
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\Microsoft.Owin.dll
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\Microsoft.Owin.Security.dll
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\Microsoft.Owin.Security.Google.dll
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\Microsoft.Web.Infrastructure.dll
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\Newtonsoft.Json.dll
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\Owin.dll
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\System.Net.Http.Formatting.dll
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\System.Web.Cors.dll
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\System.Web.Helpers.dll
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\System.Web.Http.Cors.dll
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\System.Web.Http.dll
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\System.Web.Http.Owin.dll
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\System.Web.Http.WebHost.dll
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\System.Web.Mvc.dll
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\System.Web.Optimization.dll
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\System.Web.Razor.dll
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\System.Web.WebPages.Deployment.dll
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\System.Web.WebPages.dll
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\System.Web.WebPages.Razor.dll
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\WebGrease.dll
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\System.Net.Http.Formatting.xml
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\System.Web.Http.xml
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\System.Web.Http.Cors.xml
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\Newtonsoft.Json.xml
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\System.Web.Helpers.xml
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\System.Web.Http.WebHost.xml
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\System.Web.Mvc.xml
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\System.Web.Optimization.xml
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\System.Web.Razor.xml
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\System.Web.WebPages.xml
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\System.Web.WebPages.Deployment.xml
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\System.Web.WebPages.Razor.xml
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\Antlr3.Runtime.pdb
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\EntityFramework.xml
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\EntityFramework.SqlServer.xml
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\Microsoft.Owin.xml
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\Microsoft.Owin.Security.xml
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\Microsoft.Owin.Security.Google.xml
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\bin\System.Web.Http.Owin.xml
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\obj\Debug\WebExam.csprojResolveAssemblyReference.cache
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\obj\Debug\WebExam.dll
+D:\Irfan_Shaikh\.Net\WebApiExam\WebExamVSExpress\WebExam\obj\Debug\WebExam.pdb

@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopOn Page</title>
+    <link rel="stylesheet" href="ShoppingCss.css">
+    <link rel="stylesheet" href="footerCss.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css">
+ 
+    <!-- <script src="/jquery-3.6.1.js"></script> -->
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+    <style>
+      
+.cart-banner{
+  background: url(/ShoppingProduts/halloween1.jpg) no-repeat;
+  height: 60vh;
+  background-size: cover;
+  background-position: bottom center;
+  background-attachment: fixed;
+}
+
+  /* ------- Productt CSS --------  */
+  .prodList{
+   max-width: 90%;
+   margin-left: 5%;
+   /* margin-bottom: 35%; */
+   /* height: 100vh; */
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+  justify-content: space-between;
+   
+  }
+  .card-div .img{
+  height: 200px;
+  width: 100%;
+}
+.card-div .img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+  .card-div{
+  /* height: 280px; */
+  max-width: 350px;
+  margin: 20px 20px;
+  background: white;
+  transition: 0.4s;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  flex-basis: 29%;
+
+  /* float: left; */
+}
+  .name{
+  font-size: 25px;
+  font-weight: 600;
+  color: #202020;
+  margin-left: 10px;
+}
+.price{
+  font-size: 20px;
+  font-weight: 600;
+  color: #282123;
+  line-height: 20px;
+  margin-left: 10px;
+}
+.stock span{
+   font-size: 15px;
+  font-weight: 600;
+  color: #16791b;
+  /* line-height: 20px; */
+  margin-left: 12px;
+}
+  .btn button{
+  text-decoration: none;
+  background: #2d292a;
+  color: #f2f2f2;
+  padding: 5px 8px;
+  border-radius: 3px;
+  display: inline-flex;
+  transition: 0.2s;
+  margin: 20px 10px 5px;
+  border: none;
+}
+.btn button:hover{
+  transform: scale(0.9);
+}
+.stock,.btn{
+   display: none;
+   transition: 1s;
+}
+.card-div:hover .btn, .card-div:hover .stock{
+   display: block;
+
+}
+.total{
+    font-size: 16px;
+  font-weight: 600;
+  color: #202020;
+  margin-left: 10px;
+}
+.quantity{
+
+    font-size: 16px;
+  font-weight: 600;
+  color: #202020;
+  margin-left: 10px;
+
+}
+.title{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    position: relative;
+    top: 45%;
+    left: 47%;
+    text-shadow: 2px 2px 2px black;
+}
+.card-form{
+    /* max-width: 500px;
+    width: 100%; */
+    /* background-color: #202020; */
+    border: 1px solid black;
+    position: fixed;
+    top: -100%;
+    /* top:30%; */
+    left: 35%; 
+    background: rgb(109, 114, 118);
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px 2px black;
+    z-index: 6;
+    transition: 1s;
+}
+.card-form h3{
+color: white;
+width: 100%;
+background-color: rgb(33, 36, 38);
+margin-bottom: 10px;
+border-radius: 15px 15px 0 0;
+padding: 10px 20px;
+}
+.payment-btn, .payment-can{
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: rgb(16, 18, 19);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+}
+.card-form label{
+    color: white;
+    font-weight: 500;
+    padding: 10px 10px;
+}
+.card-form #cvv{
+    width: 100px;
+}
+.card-form #cardNo{
+    width: 235px;
+    margin-right: 20px;
+    margin: 20px 10px;
+    height: 40px;
+    
+}
+
+
+@media screen and (max-width: 768px) {
+  .prodList{
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+  }
+  .card-div{
+    /* max-width: 700px; */
+    margin: 20px 0;
+    
+  }
+}
+
+</style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="content">
+          <div class="logo">
+            <a href="ShoppingHome.html">Costकम</a>
+          </div>
+          <ul class="menu-list">
+            <div class="icon cancel-btn">
+              <i class="fas fa-times"></i>
+            </div>
+            <li><a href="ShoppingHome.html">Home</a></li>
+            
+            <li class="products"><a href="Category.html">Costumes</a>
+            
+            </li>
+            <li>
+              <!-- <a href="cartPage.html">Cart</a> -->
+              
+              <a href="Cart.html"><i class="fa-solid fa-cart-shopping"></i> Cart <span style="font-size: 20px;" class="cart-count"></span></a>
+            </li>
+            <li><a href="BillPage.html">Order</a></li>
+            <!-- <li><a href="shopcontact.html">Contact</a></li> -->
+            <li><a href="AdminUserLogin.html">Sign Out</a></li>
+          </ul>
+          <div class="icon menu-btn">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+  <div class="cart-banner">
+    <p class="title">CART</p>
+  </div>
+
+
+  
+
+
+      <section class="prodList">
+         
+         <!-- <div class="card-div">
+            <div class="img">
+               <img src="/ShoppingProduts/cloth1.jpg">
+            </div>
+            <div class="name">
+                  Curren unique
+            </div>
+               <span class="price">Rs. 28999/-</span>
+            <div>
+                <span class="quantity">Quantity:</span>
+            </div>
+            <div>
+                <span class="total">Total Amount:</span>
+            </div>
+         </div> -->
+         <form action="" class="card-form">
+            <h3>Payment Process</h3>
+            <div>
+                <label for="ip">Enter Card Number:</label>
+                <input type="number" placeholder="Enter 16 Digit Card Number" class="ip" id="cardNo" required>
+            </div>
+            <div>
+                <label for="exp">Expiry Date:</label>
+                <input type="date" name="exp" id="expDate" class="ip" placeholder="">
+                <label for="cvv">CVV:</label>
+                <input type="number" name="cvv" id="cvv" required>
+            </div>
+            <div>
+                <button type="button" class="payment-btn">
+                    Proceed To Pay
+                </button>
+                <button class="payment-can">Cancel</button>
+            </div>
+            
+         </form>
+      </section>
+
+     
+  <script>
+    const body = document.querySelector("body");
+    const navbar = document.querySelector(".navbar");
+    const menuBtn = document.querySelector(".menu-btn");
+    const cancelBtn = document.querySelector(".cancel-btn");
+    menuBtn.onclick = ()=>{
+      navbar.classList.add("show");
+      menuBtn.classList.add("hide");
+      body.classList.add("disabled");
+    }
+    cancelBtn.onclick = ()=>{
+      body.classList.remove("disabled");
+      navbar.classList.remove("show");
+      menuBtn.classList.remove("hide");
+    }
+    window.onscroll = ()=>{
+      this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+    }
+  </script>
+
+  <script>
+   // var productId;
+   function ViewProduct(){
+    var userId = localStorage.getItem("userIdFromStorage");
+      $.ajax({
+        type: "GET", url: "http://localhost:49834/api/CartMaster?ID="+userId, success: (response) => {
+            
+            for (var i = 0; i < response.length; i++) {
+                var productDetails = response[i];
+
+               var str = "<div class='card-div'><div class='img'><img src='"+productDetails.Tag+"'></div><div class='name'>"+productDetails.ProdName+"</div><span class='price'>Rs. "+productDetails.ProdPrice+"/-</span><div><span class='quantity'>Quantity: "+productDetails.ProdQty+"</span></div><div><span class='total'>Total Amount: Rs. "+productDetails.ProdTotal+"/-</span></div><div class='btn'><button class='buy-now' data-prodId="+productDetails.ProductID+" data-prodName="+productDetails.ProdName+" data-prodPrice="+productDetails.ProdPrice+" data-tag="+productDetails.Tag+" data-total="+productDetails.ProdTotal+" data-orderId="+productDetails.CartID+" data-qty="+productDetails.ProdQty+">Buy Now </button><button type='button' class='removeItem' data-re-Id="+productDetails.CartID+">Remove</button></div>"
+                $(".prodList").append(str);
+            }
+        }, error: (err) => {
+            alert(err)
+            console.log(err);
+        }
+    });
+   }
+    ViewProduct();
+// var orderId;
+var userId = localStorage.getItem("userIdFromStorage");
+var prodId;
+var prodName;
+var prodPrice;
+var prodQty;
+var prodTotal;
+var prodTag;
+var cartId;
+$(document).on("click", ".buy-now", (event)=>{
+   $(".card-form").css("top",'30%');
+    cartId = $(event.target).attr('data-orderId');
+    prodId = $(event.target).attr("data-prodId");
+    prodName = $(event.target).attr("data-prodName");
+    prodPrice = $(event.target).attr("data-prodPrice");
+    prodQty = $(event.target).attr("data-qty");
+    prodTotal = $(event.target).attr("data-total");
+    prodTag = $(event.target).attr("data-tag");
+    // localStorage.setItem("OrderID",orderId);
+    $("#cardNo").val("");
+    $("#expDate").val("");
+    $("#cvv").val("");
+
+
+});
+
+$(document).on("click",".removeItem",(event)=>{
+    var cartID = $(event.target).attr("data-re-Id");
+
+    $.ajax({
+                type:"DELETE", url:"http://localhost:49834/api/CartMaster?ID=" + cartID, success:(response)=>{
+                    // alert("Product has been removed from cart!!!!")
+                    window.location.href="Cart.html";
+                },
+                error:(err)=>{
+                    alert(err);
+                }
+            });
+});
+
+$(".payment-can").click(function(){
+    $(".card-form").css("top",'-100%');
+});
+
+$(".payment-btn").click(function(){
+
+    if($("#cardNo").val()>=1000000000000000 && $("#cardNo").val()<100000000000000000 && $("#cvv").val()>99 && $("#cvv").val()<1000){
+    //     var cardNumber = $("#cardNo").val();
+    // var expDate = $("#expDate").val();
+    // var cvv = $("#cvv").val();  
+    $.ajax({
+                type:"POST", url: "http://localhost:49834/api/OrderMaster", data:{"UserID": userId,"ProductID": prodId,"ProdPrice": prodPrice,"Tag": prodTag, "ProdQty":prodQty,"ProdTotal":prodTotal, "ProdName":prodName}, success:()=>{
+                    
+                    // currentRow.find("td:eq(0)").html(prodId);
+                    // // currentRow.find("td:eq(1)").html(prodName);
+                    // $("#prod-img").css('display','block');
+                    // $("#prod-img").html("<img src="+prodTag+" alt='Product Image'  width='300px' height='auto'>")
+                    // $("#message").html("Data Inserted Successfully");
+                    // $(".inp").attr('disabled',true);
+                    alert("Order Placed");
+                    $.ajax({
+                type:"DELETE", url:"http://localhost:49834/api/CartMaster?ID=" + cartId, success:(response)=>{
+                    // alert("Product has been removed from cart!!!!")
+                    alert("Item removed from cart!")
+                    
+                   window.location.href="BillPage.html";
+                },
+                error:(err)=>{
+                    alert(err);
+                }
+            });
+                    
+                    
+                }, error:(err)=>{alert(err);}
+            });
+        
+    }
+    else{
+        alert("Please Fill the correct details");
+    }
+   
+});
+  </script>
+
+
+
+<!-- ----------------- Footer ------------------  -->
+<footer class="footer">
+  	 <div class="container">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>company</h4>
+  	 			<ul>
+  	 				<li><a href="#">about us</a></li>
+  	 				<li><a href="#">our services</a></li>
+  	 				<li><a href="shopabout.html">privacy policy</a></li>
+  	 				<li><a href="#">affiliate program</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>get help</h4>
+  	 			<ul>
+  	 				<li><a href="#">FAQ</a></li>
+  	 				<li><a href="#">shipping</a></li>
+  	 				<li><a href="#">returns</a></li>
+  	 				<li><a href="#">order status</a></li>
+  	 				<li><a href="#">payment options</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>online shop</h4>
+  	 			<ul>
+  	 				<li><a href="#">watch</a></li>
+  	 				<li><a href="#">bag</a></li>
+  	 				<li><a href="#">shoes</a></li>
+  	 				<li><a href="#">dress</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>follow us</h4>
+  	 			<div class="social-links">
+  	 				<a href="#"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="#"><i class="fab fa-twitter"></i></a>
+  	 				<a href="#"><i class="fab fa-instagram"></i></a>
+  	 				<a href="#"><i class="fab fa-linkedin-in"></i></a>
+  	 			</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
+
+  <!-- <script src="/main.js"></script> -->
+
+</body>
+</html>

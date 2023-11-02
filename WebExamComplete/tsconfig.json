@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es3",
+    "module": "commonjs",
+    "outDir": "Script/Javascript",
+    "sourceMap": false,
+    "rootDir": "Script/Typescript"
+  },
+  "exclude": [
+    "node_modules"
+]
+}
